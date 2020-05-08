@@ -1,0 +1,518 @@
+.main{
+    width: 100%;
+    height: auto;
+}
+.header{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    background-color: blue;
+}
+.hea1{
+    width: 30%;
+    height: 50px;
+    float: left;
+
+}
+.hea1 img{
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+    float: left;
+    margin-left: 30px;
+}
+.hea2{
+    width: 39%;
+    height: 50px;
+    float: left;
+    color: white;
+    margin-top: 10px;
+
+}
+.hea3{
+    width: 30%;
+    height: 50px;
+    float: left;
+    margin-top: 13px;
+
+}
+.hea3 li{
+    display: inline;
+    background-color:white;
+    padding: 5px;
+    
+}
+.logo{
+    width: 40%;
+    height: 80px;
+    float: left;
+    margin-top: 10px;
+}
+.logo img{
+    width: 40%;
+    height: 80%;
+    margin-left: 160px;
+}
+.nav{
+    margin-top: 15px;
+    width: 60%;
+    height: 60px;
+    float: left;
+}
+
+.nav li{
+    display: block;
+    text-decoration: none;
+    padding: 5px;
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.nav li a{
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+}
+.nav li a:hover{
+    width: 100px;
+    height: 50px;
+    background-color:blue;
+    line-height: 50px;
+    border-radius: 25%;
+    float: left;
+    text-align: center;
+    color: white;
+}
+.nav1{
+    width:90px;
+    height:40px;
+
+}
+/* .slider{
+    width: 100%;
+    height: 500px;
+    
+} */
+#carouselExampleControls
+{
+    float: left;
+    overflow: hidden;
+    width: 100%;
+}
+.marque{
+    width: 80%;
+    text-align: center;
+    margin-left: 140px;
+    font-weight: 400;
+    height: auto;
+    border: 1px solid;
+    background-color: blue;
+    float: left;
+    color: blanchedalmond;
+}
+.intro{
+    width: 60%;
+    height: 700px;
+    margin-left: 290px;
+    float: left;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.intro h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.intro p{
+    line-height: 25px;
+    color: gray;
+}
+.intro img{
+    width: 40px;
+    height: 40px;
+    margin-left: 450px;
+}
+
+.rate{
+    width: 100%;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+.rat1{
+    width: 270px;
+    height: 250px;
+    float: left;
+    
+    margin-left: 220px;
+    margin-top: 50px;
+}
+.rat1 img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.rat1 h1{
+    text-align: center;
+    color: honeydew;
+    font-size: 50px;
+    margin: 0px;
+}
+.rat1 p{
+    text-align: center;
+    color: honeydew;
+}
+.rat2{
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.rat2 img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.rat2 h1{
+    text-align: center;
+    color: honeydew;
+    font-size: 50px;
+    margin: 0px;
+}
+.rat2 p{
+    text-align: center;
+    color: honeydew;
+}
+
+.rat3{
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.rat3 img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.rat3 h1{
+    text-align: center;
+    color: honeydew;
+    font-size: 50px;
+    margin: 0px;
+}
+.rat3 p{
+    text-align: center;
+    color: honeydew;
+}
+.rat4{
+    width: 270px;
+    height: 250px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+.rat4 img{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.rat4 h1{
+    text-align: center;
+    color: honeydew;
+    font-size: 50px;
+    margin: 0px;
+}
+.rat4 p{
+    text-align: center;
+    color: honeydew;
+}
+.do{
+    width: 100%;
+    height: 180px;
+    float: left;
+}
+.do h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.do img{
+    width: 50px;
+    height: 50px;
+    margin-left: 750px;
+}
+.box1{
+    width: 352px;
+    height: 170px;
+    border:0px solid;
+    margin-left:230px;
+    margin-top: 30px;
+   position: relative; 
+   float:left;
+   background-color: lightgrey;
+   box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+.box2{
+    width: 350px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-left:30px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+.box3{
+    width: 350px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-left:30px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+.box4{
+    width: 350px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-left:240px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+.box5{
+    width: 350px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-left:30px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+
+.box6{
+    width: 350px;
+    height: 170px;
+    background-color: lightgrey;
+    margin-left:30px;
+    margin-top: 30px;
+    float: left;
+    box-shadow: 0px 0px 7px darkslategray;
+   
+    
+}
+.pro{
+    width: 100%;
+    height: 450px;
+    
+    float: left;
+    margin-top: 50px;
+}
+.miss{
+    width: 850px;
+    height: 400px;
+    margin-left: 230px;
+    margin-top: 30px;
+    float: left;
+}
+.miss1{
+    width: 400px;
+    height: 90px;
+    float: left;
+    background-color:#eff5f5;
+    /* margin-left: 5px; */
+    margin-top: 20px;
+}
+.miss1 img{
+    margin: 15px;
+    float: left;
+}
+.miss1 h3{
+    padding: 10px;
+}
+.miss2{
+    width: 400px;
+    height: 90px;
+    float: left;
+    background-color:#eff5f5;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.miss2 img{
+    margin: 15px;
+    float: left;
+}
+.miss2 h3{
+    padding: 10px;
+}
+.miss3{
+    width: 400px;
+    height: 90px;
+    float: left;
+    background-color:#eff5f5;
+    /* margin-left: 5px; */
+    margin-top: 25px;
+}
+.miss3 img{
+    margin: 15px;
+    float: left;
+}
+.miss3 h3{
+    padding: 10px;
+}
+.miss4{
+    width: 400px;
+    height: 90px;
+    float: left;
+    background-color: #eff5f5;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.miss4 img{
+    margin: 15px;
+    float: left;
+}
+.miss4 h3{
+    padding: 10px;
+}
+.upcome{
+    width: 350px;
+    height: 340px;
+    margin-left: 5px;
+    margin-top: 30px;
+    float: left;
+    color: gray;
+}
+.do1{
+    width: 100%;
+    height: 180px;
+    float: left;
+}
+.do1 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.do1 img{
+    width: 50px;
+    height: 50px;
+    margin-left: 750px;}
+
+.gale{
+    margin-left: 230px;
+}
+
+.gale img{
+    width: 220px;
+    height: 160px;
+    margin-left: 3px;
+    float: left;
+}
+.foot{
+    width: 100%;
+    height: 400px;
+    background-color:black;
+    margin-top: 120px;
+    float: left;
+}
+.foot1{
+    width: 400px;
+    height: 300px;
+    
+    float: left;
+    margin-left: 220px;
+    margin-top: 70px;
+    color:white;
+}
+.foot2{
+    width: 400px;
+    height: 300px;
+    
+    float: left;
+    margin-left: 5px;
+    margin-top: 70px;
+    color:white;
+}
+.foot3{
+    width: 400px;
+    height: 300px;
+    
+    float: left;
+    margin-left: 5px;
+    margin-top: 70px;
+    color:white;
+}
+.copy{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: blue;
+}
+.copy p{
+    color: white;
+    font-size: 13px;
+    line-height: 25px;
+    margin-left: 200px;
+}
+.box1 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box1 h3{
+    text-align: center;
+    color:blue;
+}
+.box2 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box2 h3{
+    text-align: center;
+    color:blue;
+}
+.box3 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box3 h3{
+    text-align: center;
+    color:blue;
+}
+.box4 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box4 h3{
+    text-align: center;
+    color:blue;
+}
+.box5 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box5 h3{
+    text-align: center;
+    color:blue;
+}
+.box6 img{
+    margin-left:130px;
+    margin-top: 20px;
+}
+.box6 h3{
+    text-align: center;
+    color:blue;
+}
